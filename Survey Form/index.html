@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="head">
+      <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us in improving our services</p>
+    </header>
+    </div>
+          <form id="survey-form" action="index.html" method="post">
+          <div class="first-div">
+          <label id="name-label" for="name">*Name: </label>
+          <input id="name" type="text"  name="name"   placeholder="Enter your name" required>
+          <label id="email-label" for="email">*Email:</label>
+          <input id="email" type="email"  name="email" size='30'  placeholder="Enter your email" required>
+          <label id="number-label" for="number">*Age:</label>
+          <input id="number" type="number"  name="age"  placeholder="Age"  min="15" max="100" required >
+          </div>
+
+        <div class="second-div">
+          <div class="second-label">
+            <label for="skills-level"> Programming skill level</label>
+          </div>
+        <div class="second-right">
+            <select id ="dropdown"name="skills">
+            <option value="newobie">Complete newobie</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="">Expert</option>
+            </select>
+        </div>
+      </div>
+          <div class="third-div">
+              <label class="third-label" for="">Which software are you using for programming language ?</label>
+            <div class="third-right">
+            <input  id="atom" type="checkbox" name="software" value="atom">
+            <label id="software-label" for="atom">atom</label><br>
+            <input  id="notepad++" type="checkbox" name="software" value="note">
+              <label for="notepad++">notepad++</label><br>
+            <input  id="Vim" type="checkbox" name="software" value="Vim">
+            <label  id="software-label" for="Vim">Vim</label><br>
+            <input  id="TextMate" type="checkbox" name="software" value="TextMate">
+              <label id= "software-label" for="TextMate">TextMate</label><br>
+             <input  id="Visual Studio" type="checkbox" name="software" value="VS">
+              <label id="software-label" for="Visual Studio">Visual Studio</label><br>
+              <input  id="Other" type="checkbox" name="software" value="other">
+              <label id="software-label" for="Other">Other</label><br>
+        </div>
+        <div class="fourth-div">
+          <div class="fourth-label">
+            <label for="language">What is your favorite programming language ? </label>
+          </div>
+          <div class="fourth-right">
+             <input  id="javaScript" type="radio" name="language" value=""><label id="langurage-label" for="javaScript"> javaScript</label><br>
+               <input  id="Java" type="radio" name="language" value=""><label id="language-label" for="Java"> Java</label><br>
+               <input  id="Python" type="radio" name="language" value=""/><label id="language-label" for="Python"> Python</label><br>
+              <input  id="C#" type="radio" name="language" value=""><label id="language-label" for="C#"> C#</label><br>
+              <input  id="PHP" type="radio" name="language" value=""/>  <label id="language-label" for="PHP"> PHP</label> <br>
+               <input  id="C++" type="radio" name="language" value="">  <label id="language-label" for="C++"> C++</label><br>
+                <input  id="C" type="radio" name="language" value=""><label id="language-label" for="C"> C</label><br>
+          </div>
+        </div>
+        <div class="fifth-div">
+            <div class="fifth-label">
+            <label for="comments">Any comments or suggestions ?</label><br>
+            </div>
+            <div class="fifth-right">
+            <textarea id="comments" name="comments" rows="8" cols="61" placeholder="Enter your comments here"></textarea>
+            </div>
+            <div class="submit-div">
+                <button id=submit type="button" name="button" >Submit</button>
+            </div>
+            </div>
+        </div>
+
+          </form>
+
+  </body>
+</html>

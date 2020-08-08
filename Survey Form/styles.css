@@ -1,0 +1,141 @@
+
+body{
+background-image: url('https://engineering.tufts.edu/cs/sites/default/files/images/slides/news-ssd.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+}
+.head{
+  text-align: center;
+  margin:0.5rem 0 1rem 0;
+
+}
+
+#title{
+  font-size: 2rem;
+  color:#f7d6bf;
+}
+#description{
+  color:#f9f7d9;
+  font-size: 1rem;
+
+}
+
+#survey-form{
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px silver;
+  display: blcok;
+  background-color: #56556e;
+  width:40%;
+  height:auto;
+  padding:20px 20px 10px 20px;
+  margin:0 auto ;
+  font-family: 'Antic Slab', serif;
+  font-size: 1rem;
+  color:#dddddd;
+
+}
+
+.first-div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  text-align: left;
+
+}
+
+#name-label{
+text-align: left;
+padding-bottom: 5px;
+}
+
+#name{
+  margin-bottom: 5px;
+}
+
+#email-label{
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#email{
+margin-bottom: 5px;
+}
+
+#number-label{
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+#number{
+  margin-bottom: 5px;
+}
+
+
+
+.second-div{
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+}
+
+.second-label{
+  text-align: left;
+  vertical-align: top;
+  padding:10px 0;
+}
+.second-right{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+#dropdown{
+flex-grow: 2;
+}
+.third-div{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.third-label{
+margin-bottom: 10px;
+}
+.third-right{
+  text-align: left;
+}
+
+.fourth-div{
+  display:flex;
+  flex-direction: column;
+  margin:10px 0;
+}
+.fourth-label{
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+.fifth-div{
+  display: flex;
+  flex-direction: column;
+  margin:0 auto;
+}
+
+.fifth-label{
+  margin-bottom: 10px;
+
+}
+#comments{
+  border:4px double orange;
+  border-radius: 10px;
+  width: 100%;
+}
+.submit-div{
+width:100%;
+}
+#submit{
+  margin:0 30%;
+  width:40%;
+}
+button:hover{
+  background-color: gold;
+}
